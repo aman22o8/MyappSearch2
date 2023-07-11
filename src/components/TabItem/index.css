@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.tabItembutton {
+  width: 60px;
+  height: 30px;
+  border: 0px solid;
+  background-color: transparent;
+  border-bottom: 2px solid #7b8794;
+  cursor: pointer;
+}
+.active-btn {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}

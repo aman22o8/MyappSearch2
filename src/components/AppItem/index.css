@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.Appitemmy {
+  height: 120px;
+  width: 110px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 5px 5px;
+}
+.myimage {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+}
+.itemDescription {
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  font-weight: 700;
+  color: #1e293b;
+}

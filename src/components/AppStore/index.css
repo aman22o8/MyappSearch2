@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.bg_container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 270px;
+}
+.heading {
+  font-size: 30px;
+  color: 1e293b;
+  font-family: 'Bree Serif';
+}
+.input_value {
+  width: 200px;
+  height: 40px;
+  padding-left: 10px;
+  padding-top: 0px;
+  background-color: transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 2px solid #dfe2e5;
+  border-right: 0px solid;
+}
+.tabitemcontainer {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+}
+.mywidth {
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.appinputcontainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 270px;
+}
+.myicon {
+  height: 30px;
+  width: 30px;
+}
+
+.buttonicon {
+  background-color: transparent;
+  height: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 2px solid #dfe2e5;
+  border-left: 0px solid;
+}
+
+@media screen and (min-width: 400px) {
+  .bg_container {
+    height: 100vh;
+  }
+}
